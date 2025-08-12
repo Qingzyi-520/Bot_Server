@@ -32,3 +32,7 @@ setupEventHandlers(client);
 client.login(process.env.TOKEN);
 
 export { client };
+
+export function startDiscordBot() {
+  console.log("Bot sedang berjalan...");
+}
