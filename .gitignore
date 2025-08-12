@@ -1,0 +1,13 @@
+# Jangan commit folder dependencies (akan di-install otomatis di server)
+node_modules/
+
+# File environment (isi TOKEN dan data sensitif)
+.env
+
+# File log
+npm-debug.log
+yarn-error.log
+
+# File sistem yang nggak perlu
+.DS_Store
+Thumbs.db
